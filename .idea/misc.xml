@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.148" />
         <entry key="app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.1575" />
         <entry key="app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.148" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.148" />
         <entry key="app/src/main/res/drawable/ic_splash.xml" value="0.148" />
         <entry key="app/src/main/res/layout/activity_add_notes.xml" value="0.2548721313476563" />
         <entry key="app/src/main/res/layout/activity_content.xml" value="0.25" />
@@ -14,6 +17,8 @@
         <entry key="app/src/main/res/layout/main_activity_single_item.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/main_activity_single_list.xml" value="0.1996337890625" />
         <entry key="app/src/main/res/layout/main_activity_single_lista.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.148" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.148" />
       </map>
     </option>
   </component>
