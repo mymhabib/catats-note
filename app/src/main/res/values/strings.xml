@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Catats</string>
+    <string name="delete_button">delete</string>
+    <string name="edit_and_save_button">Edit and save button</string>
+    <string name="judul_add">Title</string>
+    <string name="add_button_description">Add button</string>
+</resources>

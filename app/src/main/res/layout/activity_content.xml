@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    android:id="@+id/content_layout"
+    tools:context=".ContentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/layoutDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <EditText
+                android:id="@+id/judulDetail"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="30dp"
+                android:autofillHints="false"
+                android:background="@null"
+                android:backgroundTint="@color/gray"
+                android:gravity="center_horizontal|bottom"
+                android:text="judultitle 1 lorwm"
+                android:textColor="@color/text_gray"
+                android:textColorHighlight="@color/gray"
+                android:textCursorDrawable="@null"
+                android:textSize="16dp"
+                android:textStyle="bold"
+
+                />
+
+            <soup.neumorphism.NeumorphTextView
+                android:id="@+id/tanggalDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judulDetail"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:text="21/10/2022"
+                android:textSize="10dp" />
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/neumorphCardView"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tanggalDetail"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                app:neumorph_shapeType="pressed">
+
+                <EditText
+                    android:id="@+id/isi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_margin="20dp"
+                    android:autofillHints="false"
+                    android:background="@null"
+                    android:textColor="@color/text_gray"
+                    android:backgroundTint="@color/gray"
+                    android:text="slckmlsckslckcklsjcsjx cjslcjslcjsl scsjkcsjclsjc scjslcjslc sjcklsjclscj scjslcjls cjskcjskc cjslcjsk sjcksjcsk jscksj"
+                    android:textColorHighlight="@color/gray"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14dp"
+                    tools:ignore="LabelFor,RtlCompat"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/edit_and_save_button"
+        android:src="@drawable/ic_baseline_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:hapticFeedbackEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/fab_edit"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/delete_button"
+        android:src="@drawable/ic_baseline_delete_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:hapticFeedbackEnabled="true"
+        app:layout_constraintEnd_toStartOf="@+id/fab_edit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
