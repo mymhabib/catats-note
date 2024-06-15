@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven {url "https://jitpack.io"}
     }
 }
-rootProject.name = "IS5_10519166"
+rootProject.name = "Catats"
 include ':app'
