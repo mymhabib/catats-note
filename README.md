@@ -15,7 +15,14 @@ Catats Note is a simple note-taking Android application designed to help you org
 <img src="https://github.com/mymhabib/catats-note/assets/85412229/88817d7b-43d1-4526-93e0-baaa2ea44b50" alt="Screenshot 2" height="600">
 
 
+## Installation
 
+To install Catats Note on your Android device:
+
+1. Download the APK file from the [releases](https://github.com/mymhabib/catats-note/releases) section.
+2. Enable installation from unknown sources in your device settings.
+3. Open the APK file to begin installation.
+4. Follow the on-screen instructions to complete the installation.
 
 
 
